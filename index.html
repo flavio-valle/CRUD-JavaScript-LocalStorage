@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD Sodré Santoro</title>
+</head>
+<body>
+    <main>
+        <section>
+<div class="container">
+    <div class="conteudo-imagem"><img src="img/sodre(1).png" class="img"alt="img/sodre.png" width="200px" height="200px"></div>
+    <h2>Cadastro de Produtos</h2>
+    <form id="formulario">
+        <div class="inputBox">
+            <input type="text" id="CampoCodigo" required="required">
+            <span>Código Produto</span>
+        </div>
+        <div class="inputBox">
+            <input type="text" id="CampoDescricao" required="required">
+            <span>Descrição Produto</span>
+        </div>
+        <div class="inputBox">
+        <input type="submit" value="Salvar" id="salvar">
+        </div>
+    </form>
+<table id="tabProduto">
+    <thead>
+    <tr class="tabela-head">
+        <th class="codigo">Codigo</th>
+        <th class="descricao">Descrição</th>
+        <th class="funcao">Funções</th>
+    </tr>
+</thead>
+<tbody>
+    <!-- <tr>
+        <td id="ValorCodigo">teste</td>
+        <td id="ValorDescricao">teste</td>
+        <td>
+            <button type="button" id="excluir">Excluir</button> 
+            <button type="button" id="editar">Editar</button>
+        </td>
+        
+    </tr> -->
+</tbody>
+</table>
+</section>
+
+</main>
+
+</body>
+<script src="script.js"></script>
+</html>
