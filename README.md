@@ -6,7 +6,7 @@
 
  <p>O projeto tem como finalidade, utilizar os princípios do CRUD, com as informações armazenadas no próprio navegador(LocalStorage).<p>
   <br>
-  <h4>Todos os Direitos Reservados para a empresa <a href="https://www.sodresantoro.com.br/" target="_blank">Sodré Santoro</a> 
+  <p><bold>Todos os Direitos Reservados para a empresa <a href="https://www.sodresantoro.com.br/" target="_blank">Sodré Santoro.</a></bold></p>
     <img align="right" src="https://logo.empregos.com.br/125128_G.jpg"/>
 
 
@@ -23,14 +23,44 @@
   + CRUD realizado em tabela
   + Função de criar, ler, editar, e deletar
   + Lógica criada com principios de funções em variáveis
-  
+ ## 
+ 
+ 
+ <h2>Demonstrativo</h2>
   <div id="gif1"> 
-    <img align="center" src="" alt="teste"/>
+    <img align="center" src="img-projeto/Demonstrativo (1).gif" width="550px" height="300px" alt="teste"/>
+ 
+  </div>
+     
+  #### - A interface não segue os processos caso os campos não estejam preenchidos, e além disto, os conteúdos estão todos animados, tornando o projeto mais dinâmico.
+  ####    
+ <h2>Editar</h2>
+  <div id="gif2"> 
+    <img align="center" src="img-projeto/Editar.gif" width="550px" height="300px" alt="teste"/>
   </div>
 
-   #### a interface não segue os processos caso os campos não estejam preenchidos, e além disto, os conteúdos estão todos animados, tornando o projeto mais dinâmico.
-  ####    
-   
+  #### - Clicando no botão Editar, é aberta uma janela no topo da tela para inserir os códigos novos a serem alterados.
+  ####
+
+ <h2>Deletar</h2>
+  <div id="gif3"> 
+    <img align="center" src="img-projeto/Deletar_1.gif" width="550px" height="300px" alt="teste"/>
+  </div>
+  
+  #### - Ao clicar em excluir, os dados serão deletados, sem que altere a ordem dos de cima ou de baixo.
+  ####
+  
+ <h2>Criar</h2>
+  <div id="gif4"> 
+    <img align="center" src="img-projeto/Criar.gif" width="550px" height="300px" alt="teste"/>
+  </div>
+  
+  #### - Para criar, basta os campos estarem preenchidos com seus valores, e então, clicar no botão salvar. Assim, os dados serão introduzidos em valores de tabela.
+  ####
+  
+  #
+
+
    
    ### Feito com as seguintes tecnologias:
 
