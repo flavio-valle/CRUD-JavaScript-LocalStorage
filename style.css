@@ -141,14 +141,8 @@ tr button {
     transition: 0.5s;
 }
 
-
-
 .conteudo-imagem{
     width: 100%;
     display:flex;
     justify-content: center;
 }
-
-
-
-

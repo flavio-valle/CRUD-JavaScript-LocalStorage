@@ -1,11 +1,8 @@
-
 'use strict'
 // const produtoTemporario = {
 //     codigo: "00005",
 //     descricao: "Borracha"
-
 // }
-
 const pegarLocalStorage = () => JSON.parse(localStorage.getItem('db_produto')) ?? []
 const setLocalStorage = (dbProduto) => localStorage.setItem("db_produto",JSON.stringify(dbProduto))
 
@@ -78,23 +75,18 @@ const AtualizarTabela = () => {
     dbProduto.forEach(CriarLinha)
 }
 
-
-
-
 const editProduto = (indice) => {
  const produto = lerProduto()[indice]
  produto.indice = indice
  let editarCodigo = (prompt("Digite o novo valor do codigo: "))
  let editarDescricao = (prompt("digite a descrição do novo produto: "))
- 
+
  const novoObjeto =  {
                          codigo: editarCodigo,
                          descricao: editarDescricao
                      }
 const dados = pegarLocalStorage();
-
 dados[indice] = novoObjeto;
-
 localStorage.setItem("db_produto", JSON.stringify(dados));
 CriarLinha(dados)
 
@@ -119,22 +111,7 @@ editProduto(indice)
 }
 }
 
-AtualizarTabela()
+AtualizarTabela();
 
 document.getElementById('salvar').addEventListener('click', salvarProduto)
-
 document.querySelector('#tabProduto>tbody').addEventListener('click', removerElemento)
-
-
-
-
-
-
-/* 
-
-
-
-
-
-
-*/ 
